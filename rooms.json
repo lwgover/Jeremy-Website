@@ -1,0 +1,26 @@
+{
+	"nodes": [
+		{ "number":"<unk>", "name": "Entrance Hatch", "details":"Enter hatch, to find dingey carpet, peeling yellow wallpaper."},
+        { "number":"0001", "name": "laundry room", "details":""},
+        { "number":"0010", "name": "office room", "details":"found the emails here"},
+        { "number":"0011", "name": "", "details":""},
+        { "number":"0100", "name": "", "details":""},
+        { "number":"0101", "name": "", "details":""},
+        { "number":"0110", "name": "", "details":""},
+        { "number":"0111", "name": "", "details":""},
+        { "number":"1000", "name": "laundry room", "details":"High school"},
+        { "number":"1001", "name": "", "details":""}, 
+        { "number":"1010", "name": "", "details":""},
+        { "number":"1011", "name": "", "details":""},
+        { "number":"1100", "name": "", "details":""},
+        { "number":"1101", "name": "", "details":""},
+        { "number":"1110", "name": "", "details":""},
+        { "number":"1111", "name": "", "details":""},
+        { "number":"???", "name": "backroom", "details":"shrouded and scary figure turned around very very slowly here"}
+        
+
+	],
+	"edges": [		{ "source": 0, "target": 1},{ "source": 0, "target": 2},{ "source": 1, "target": 3},
+    { "source": 0, "target": 5}
+	]
+}
