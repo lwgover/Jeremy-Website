@@ -1,0 +1,458 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "room_number": "0000",
+            "name": "The Fault",
+            "details": "Ladder to get in. Dingey Carpet, peeling yellow wallpaper with various patterns. Entrance from stair room, with dim lighting -> ladder."
+        },
+        {
+            "index": 1,
+            "room_number": "0001",
+            "name": "",
+            "details": ""
+        },
+        {
+            "index": 2,
+            "room_number": "0010",
+            "name": "laundry room",
+            "details": ""
+        },
+        {
+            "index": 3,
+            "room_number": "0011",
+            "name": "",
+            "details": ""
+        },
+        {
+            "index": 4,
+            "room_number": "0100",
+            "name": "",
+            "details": ""
+        },
+        {
+            "index": 5,
+            "room_number": "0101",
+            "name": "70s Lounge",
+            "details": "Wedding reception with hank and his wife Alison"
+        },
+        {
+            "index": 6,
+            "room_number": "0110",
+            "name": "",
+            "details": ""
+        },
+        {
+            "index": 7,
+            "room_number": "0111",
+            "name": "",
+            "details": ""
+        },
+        {
+            "index": 8,
+            "room_number": "1000",
+            "name": "High School",
+            "details": "Nighttime, lockers, no-power or wifi. 1996. Met librarian roamer. Found greek-myth and hypercube paper here."
+        },
+        {
+            "index": 9,
+            "room_number": "1001",
+            "name": "",
+            "details": ""
+        },
+        {
+            "index": 10,
+            "room_number": "1010",
+            "name": "Stair room",
+            "details": "Dim lighting concrete"
+        },
+        {
+            "index": 11,
+            "room_number": "1011",
+            "name": "",
+            "details": ""
+        },
+        {
+            "index": 12,
+            "room_number": "1100",
+            "name": "",
+            "details": ""
+        },
+        {
+            "index": 13,
+            "room_number": "1101",
+            "name": "",
+            "details": ""
+        },
+        {
+            "index": 14,
+            "room_number": "1110",
+            "name": "",
+            "details": ""
+        },
+        {
+            "index": 15,
+            "room_number": "1111",
+            "name": "",
+            "details": ""
+        },
+        {
+            "index": 16,
+            "room_number": "10000",
+            "name": "",
+            "details": ""
+        },
+        {
+            "index": 17,
+            "room_number": "10001",
+            "name": "",
+            "details": ""
+        },
+        {
+            "index": 18,
+            "room_number": "0010",
+            "name": "Conference Room",
+            "details": ""
+        },
+        {
+            "index": 19,
+            "room_number": "10011",
+            "name": "",
+            "details": ""
+        },
+        {
+            "index": 20,
+            "room_number": "10100",
+            "name": "",
+            "details": ""
+        },
+        {
+            "index": 21,
+            "room_number": "10101",
+            "name": "",
+            "details": ""
+        },
+        {
+            "index": 22,
+            "room_number": "10110",
+            "name": "",
+            "details": ""
+        },
+        {
+            "index": 23,
+            "room_number": "10111",
+            "name": "",
+            "details": ""
+        },
+        {
+            "index": 24,
+            "room_number": "11000",
+            "name": "",
+            "details": ""
+        },
+        {
+            "index": 25,
+            "room_number": "11001",
+            "name": "",
+            "details": ""
+        },
+        {
+            "index": 26,
+            "room_number": "11010",
+            "name": "",
+            "details": ""
+        },
+        {
+            "index": 27,
+            "room_number": "11011",
+            "name": "",
+            "details": ""
+        },
+        {
+            "index": 28,
+            "room_number": "11100",
+            "name": "",
+            "details": ""
+        },
+        {
+            "index": 29,
+            "room_number": "11101",
+            "name": "",
+            "details": ""
+        },
+        {
+            "index": 30,
+            "room_number": "11110",
+            "name": "",
+            "details": ""
+        },
+        {
+            "index": 31,
+            "room_number": "11111",
+            "name": "",
+            "details": ""
+        }
+    ],
+    "edges": [
+        {
+            "source": 0,
+            "target": 8
+        },
+        {
+            "source": 0,
+            "target": 4
+        },
+        {
+            "source": 0,
+            "target": 2
+        },
+        {
+            "source": 0,
+            "target": 1
+        },
+        {
+            "source": 1,
+            "target": 9
+        },
+        {
+            "source": 1,
+            "target": 5
+        },
+        {
+            "source": 1,
+            "target": 3
+        },
+        {
+            "source": 1,
+            "target": 0
+        },
+        {
+            "source": 2,
+            "target": 10
+        },
+        {
+            "source": 2,
+            "target": 6
+        },
+        {
+            "source": 2,
+            "target": 0
+        },
+        {
+            "source": 2,
+            "target": 3
+        },
+        {
+            "source": 3,
+            "target": 11
+        },
+        {
+            "source": 3,
+            "target": 7
+        },
+        {
+            "source": 3,
+            "target": 1
+        },
+        {
+            "source": 3,
+            "target": 2
+        },
+        {
+            "source": 4,
+            "target": 12
+        },
+        {
+            "source": 4,
+            "target": 0
+        },
+        {
+            "source": 4,
+            "target": 6
+        },
+        {
+            "source": 4,
+            "target": 5
+        },
+        {
+            "source": 5,
+            "target": 13
+        },
+        {
+            "source": 5,
+            "target": 1
+        },
+        {
+            "source": 5,
+            "target": 7
+        },
+        {
+            "source": 5,
+            "target": 4
+        },
+        {
+            "source": 6,
+            "target": 14
+        },
+        {
+            "source": 6,
+            "target": 2
+        },
+        {
+            "source": 6,
+            "target": 4
+        },
+        {
+            "source": 6,
+            "target": 7
+        },
+        {
+            "source": 7,
+            "target": 15
+        },
+        {
+            "source": 7,
+            "target": 3
+        },
+        {
+            "source": 7,
+            "target": 5
+        },
+        {
+            "source": 7,
+            "target": 6
+        },
+        {
+            "source": 8,
+            "target": 0
+        },
+        {
+            "source": 8,
+            "target": 12
+        },
+        {
+            "source": 8,
+            "target": 10
+        },
+        {
+            "source": 8,
+            "target": 9
+        },
+        {
+            "source": 9,
+            "target": 1
+        },
+        {
+            "source": 9,
+            "target": 13
+        },
+        {
+            "source": 9,
+            "target": 11
+        },
+        {
+            "source": 9,
+            "target": 8
+        },
+        {
+            "source": 10,
+            "target": 2
+        },
+        {
+            "source": 10,
+            "target": 14
+        },
+        {
+            "source": 10,
+            "target": 8
+        },
+        {
+            "source": 10,
+            "target": 11
+        },
+        {
+            "source": 11,
+            "target": 3
+        },
+        {
+            "source": 11,
+            "target": 15
+        },
+        {
+            "source": 11,
+            "target": 9
+        },
+        {
+            "source": 11,
+            "target": 10
+        },
+        {
+            "source": 12,
+            "target": 4
+        },
+        {
+            "source": 12,
+            "target": 8
+        },
+        {
+            "source": 12,
+            "target": 14
+        },
+        {
+            "source": 12,
+            "target": 13
+        },
+        {
+            "source": 13,
+            "target": 5
+        },
+        {
+            "source": 13,
+            "target": 9
+        },
+        {
+            "source": 13,
+            "target": 15
+        },
+        {
+            "source": 13,
+            "target": 12
+        },
+        {
+            "source": 14,
+            "target": 6
+        },
+        {
+            "source": 14,
+            "target": 10
+        },
+        {
+            "source": 14,
+            "target": 12
+        },
+        {
+            "source": 14,
+            "target": 15
+        },
+        {
+            "source": 15,
+            "target": 7
+        },
+        {
+            "source": 15,
+            "target": 11
+        },
+        {
+            "source": 15,
+            "target": 13
+        },
+        {
+            "source": 15,
+            "target": 14
+        },
+        {
+            "source": 10,
+            "target": 18
+        }
+    ]
+}
