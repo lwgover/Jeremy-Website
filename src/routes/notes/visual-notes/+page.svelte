@@ -22,7 +22,7 @@
 	/**
 	 * @type {any}
 	 */
-	let root = 'http://localhost:5173/'; //'https://www.lucasgover.com/Jeremy-Website/' // 
+	let root = 'https://www.lucasgover.com/Jeremy-Website/' // 'http://localhost:5173/'; //
 	$: isMobile = pageWidth < 768;
 	$: pageWidth = pageWidth;
 	let selected_graph = 'rooms';
@@ -52,7 +52,8 @@
 				<Graph rendered_height={isMobile ? 1000 : 600} data_file={root + '5d_hypercube.json'} />
 			{/if}
 		</div>
-		<div class="graph-info column">
+        <div class='graph-how-to'>* This graph shows connections between rooms. To get information about a room, hover/click the node. You can also drag nodes to separate out the graph.</div>
+		<div class="graph-info">
 			<div class="graph-info-name">{$graph_selected ? $graph_selected['data']['name'] : ''}</div>
 			<div class="graph-info-number">
 				{$graph_selected ? $graph_selected['data']['room_number'] : ''}
@@ -68,6 +69,16 @@
 </main>
 
 <style>
+    .graph-how-to {
+        font-family: Arial, Helvetica, sans-serif;
+		padding: 50px;
+        width:1050px;
+        max-width: 100vw;
+        padding-top: 5px;
+        margin:auto;
+        font-weight: 10;
+        color: #555;
+    }
 	.graph-info-name {
 		font-family: Georgia, Times, 'Times New Roman', serif;
 		font-weight: 600;
