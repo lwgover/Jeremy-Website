@@ -16,7 +16,7 @@
             "index": 2,
             "room_number": "0010",
             "name": "laundry room",
-            "details": ""
+            "details": "Unnumbered door into alley to the north. We encountered 4 roamers here. There's a door to the south with a hanged person."
         },
         {
             "index": 3,
@@ -453,6 +453,22 @@
         {
             "source": 10,
             "target": 18
+        },
+        {
+            "source": 8,
+            "target": 16
+        },
+        {
+            "source": 8,
+            "target": 12
+        },
+        {
+            "source": 8,
+            "target": 9
+        },
+        {
+            "source": 8,
+            "target": 10
         }
     ]
 }
