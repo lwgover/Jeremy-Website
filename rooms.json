@@ -57,8 +57,8 @@
         {
             "index": 9,
             "room_number": "1001",
-            "name": "",
-            "details": ""
+            "name": "Mall Room",
+            "details": "Large Atrium. We enter from the west. Each store contains something we lost that is desired. In the center there is a fountain. Cart was towards the north (1101). "
         },
         {
             "index": 10,
@@ -69,8 +69,8 @@
         {
             "index": 11,
             "room_number": "1011",
-            "name": "",
-            "details": ""
+            "name": "Beach Room",
+            "details": "Large Beach with a calm breeze, and salt water smell wafting through the door. Seagull noises."
         },
         {
             "index": 12,
@@ -81,8 +81,8 @@
         {
             "index": 13,
             "room_number": "1101",
-            "name": "",
-            "details": ""
+            "name": "Office / Work Space",
+            "details": "Large Atrium. We see a balcony. Lots of plants. It's our workplace, not sure what year."
         },
         {
             "index": 14,
@@ -468,6 +468,10 @@
         },
         {
             "source": 8,
+            "target": 10
+        },
+        {
+            "source": 9,
             "target": 10
         }
     ]
